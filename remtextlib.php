@@ -3,7 +3,7 @@
 class dbstuff {
 
 	function dbconnect(){
-            $conn = mysql_connect('localhost', 'remtextuser', 'madeupstuff');
+            $conn = mysql_connect('localhost', 'remtextuser', 'madeupstuff2');
             mysql_select_db("remtext",$conn);
 	}
 
